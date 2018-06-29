@@ -7,8 +7,9 @@ describe('shout(string)', function() {
     expect(shout('hello')).toEqual('HELLO')
   })
 })
+
 function whisper(string) {
-  return string.toLowerCase
+  return string.toLowerCase()
 }
 
 describe('whisper(string)', function() {
